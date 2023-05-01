@@ -154,5 +154,5 @@ void main() {
         FragColor = vec4(FinalColor, 1.0); //* fColor * vec4(fObjectColor, 1.0f);
 
     // Add the subsurface scattering effect to the base color
-    outColor = vec4(FragColor.rgb + scattering, 1.0);
+    outColor = vec4(FragColor.rgb, 1.0);
 }
